@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "commonjs",
+    "rootDir": ".",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts", "spec/**/*.ts"],
+  "exclude": ["node_modules"]
+}
